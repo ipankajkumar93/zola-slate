@@ -3927,7 +3927,7 @@ body.show-unified-taxonomy #unified-topics-view { display: block !important; }
    Custom Tooltip
    -------------------------------------------------------------------------- */
 .custom-tooltip {
-    position: absolute;
+    position: fixed;
     background-color: var(--color-bg-elevated);
     color: var(--color-text);
     border: 1px solid var(--color-text-muted);
